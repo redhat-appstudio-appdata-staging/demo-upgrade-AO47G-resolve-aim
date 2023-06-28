@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: demo-upgrade
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/gtrivedi-tenant/demo-upgrade/demo-upgrade@sha256:7f9a5c348ce77e07ef62b3696486549edb8c033c81116927ee5c608c3e69c7e8
+        name: my-java-springboot
+        resources: {}
+status: {}
