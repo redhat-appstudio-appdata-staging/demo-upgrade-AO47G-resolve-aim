@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/gtrivedi-tenant/demo-upgrade/demo-upgrade@sha256:b1da8855c44e60be89597ed8c931f8e895ddfed2eda217b9bf3f9fa8b9780517
+      - image: quay.io/redhat-user-workloads-stage/gtrivedi-tenant/demo-upgrade/demo-upgrade@sha256:5848c2331141ce15e89c484e41b574173a85dde936562c57211db56c10631eef
         name: my-java-springboot
         resources: {}
 status: {}
